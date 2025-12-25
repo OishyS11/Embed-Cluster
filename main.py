@@ -1,3 +1,19 @@
+# -------------------- Model Selection --------------------
+
+## Uncomment the model name and type while running
+# ===== Encoder-only models =====
+# model_name = "sentence-transformers/all-mpnet-base-v2"
+# model_name = "distilbert-base-uncased"
+
+# ===== Decoder-only models =====
+# model_name = "gpt2"
+# model_name = "Qwen/Qwen2.5-0.5B-Instruct"
+
+# ===== Encoder-decoder models =====
+# model_name = "facebook/bart-large"
+# model_name = "t5-base"  # ✅ Active model
+ 
+
 # ----------------------------
 # Main
 # ----------------------------
@@ -148,4 +164,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
